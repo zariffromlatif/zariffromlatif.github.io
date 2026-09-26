@@ -23,6 +23,7 @@ export const profile = {
     "I’m the founder and technical builder of **Railo**, an autonomous DevSecOps system that explores how AI, AST-level program transformation, and formal verification can be combined to automate software security remediation safely. I enjoy taking difficult research problems from first principles and turning them into working systems, and my long-term goal is to advance trustworthy autonomous software by bridging the gap between what AI can generate and what we can rigorously verify.",
   ],
   location: "Dhaka, Bangladesh",
+  education: "BSc in Computer Science — BRAC University",
   email: "zarif.latif.biz@gmail.com",
   availability: "Open to select opportunities",
   // Social / professional links — leave a field empty ("") to hide it

@@ -24,7 +24,7 @@ export const projects: Project[] = [
     title: "Railo — Autonomous DevSecOps & Security Remediation",
     category: "DevSecOps & Formal Methods",
     description:
-      "A deterministic vulnerability remediation compiler that detects backend security flaws, synthesizes zero-regression code patches via CST surgery and Microsoft Z3 SMT verification, and opens merge-ready Fix PRs on GitHub without LLM hallucinations. Landed upstream security fixes on tier-1 repositories including HTTPie (34k★), Dagster (16k★), BentoML (8.8k★), and DeepEval (5k★).",
+      "A deterministic vulnerability remediation compiler that detects backend security flaws, synthesizes code patches via CST surgery and Microsoft Z3 SMT verification, and opens fix PRs on GitHub without LLM hallucinations. Security fixes submitted upstream to HTTPie (38k★), Dagster (16k★), BentoML (8.9k★), DeepEval (18k★), and PennyLane — currently in review.",
     stack: [
       "Python",
       "LibCST",
@@ -36,7 +36,7 @@ export const projects: Project[] = [
       "PostgreSQL",
     ],
     links: { live: "https://railo.dev" },
-    metric: "350k+ ★ Audited · <1ms Proofs",
+    metric: "5 Upstream PRs · In Review",
     year: "2025 – Present",
     featured: true,
   },
@@ -100,7 +100,7 @@ export const projects: Project[] = [
     links: {
       repo: "https://github.com/zariffromlatif/SignalForge",
     },
-    metric: "0% → 40%+ AI Citation Rate",
+    metric: "Multi-Engine GEO Measurement",
     year: "2025",
     featured: true,
   },

@@ -58,6 +58,12 @@ export function About() {
               </div>
               <div>
                 <dt className="uppercase tracking-[0.2em] text-ink-faint">
+                  Education
+                </dt>
+                <dd className="mt-1.5 text-sm text-ink">{profile.education}</dd>
+              </div>
+              <div>
+                <dt className="uppercase tracking-[0.2em] text-ink-faint">
                   Status
                 </dt>
                 <dd className="mt-1.5 text-sm text-ink">
