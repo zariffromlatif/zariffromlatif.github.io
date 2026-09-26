@@ -41,6 +41,26 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    title: "Life Forge — Autonomous Flight Simulator for AI Agents",
+    category: "AI Safety & Agentic Simulation",
+    description:
+      "A co-evolutionary adversarial red-teaming and dynamic stress-testing simulator for autonomous AI agents using Artificial Life Quality-Diversity algorithms (3D MAP-Elites). Autonomously breeds and discovers edge cases, deadlock traps, and authorization exploits across multi-modal tools and ERP sandboxes before production deployment.",
+    stack: [
+      "Python 3.10+",
+      "3D MAP-Elites",
+      "Model Context Protocol (MCP)",
+      "FastAPI",
+      "Docker",
+      "Pytest",
+    ],
+    links: {
+      repo: "https://github.com/zariffromlatif/life-forge",
+    },
+    metric: "88/88 Tests · 3D MAP-Elites",
+    year: "2026",
+    featured: true,
+  },
+  {
     title: "Aetherius — Deterministic Downside-Risk Engine",
     category: "Quantitative Risk & NLP",
     description:
