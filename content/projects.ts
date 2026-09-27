@@ -44,11 +44,12 @@ export const projects: Project[] = [
     title: "Life Forge — Autonomous Flight Simulator for AI Agents",
     category: "AI Safety & Agentic Simulation",
     description:
-      "A co-evolutionary adversarial red-teaming and dynamic stress-testing simulator for autonomous AI agents using Artificial Life Quality-Diversity algorithms (3D MAP-Elites). Autonomously breeds and discovers edge cases, deadlock traps, and authorization exploits across multi-modal tools and ERP sandboxes before production deployment.",
+      "An autonomous adversarial red-teaming simulator for AI agents: 3D MAP-Elites quality-diversity evolution breeds edge-case scenarios that force frontier models to fail before production. In a three-model showdown it discovered 7 unauthorized fund-transfer executions in Qwen 2.5 and unbounded retry deadlocks in Llama 3.1 and DeepSeek-R1. MCP-native sandbox with deterministic rollback and an invariant policy oracle.",
     stack: [
       "Python 3.10+",
       "3D MAP-Elites",
       "Model Context Protocol (MCP)",
+      "LiteLLM",
       "FastAPI",
       "Docker",
       "Pytest",
@@ -56,7 +57,7 @@ export const projects: Project[] = [
     links: {
       repo: "https://github.com/zariffromlatif/life-forge",
     },
-    metric: "88/88 Tests · 3D MAP-Elites",
+    metric: "89/89 Tests · CI Green",
     year: "2026",
     featured: true,
   },
